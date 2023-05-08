@@ -8,6 +8,15 @@
 /* font-family: 'Raleway', sans-serif;
    font-family: 'Roboto', sans-serif; */
  }
+ html {
+    box-sizing: content-box;
+ }
+
+ *,
+ *::before
+ *::after{
+   box-sizing: inherit;
+ }
  body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -15,7 +24,38 @@
 
     color: var(--primary-text-color);
     background-color: var(--background-color);
- }
+   } 
+
+   a{
+      text-decoration: none;
+   }
+   
+   ul,
+   p,
+   h1,
+   h2,
+   h3{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+   }
+   
+   /* загальні стилі  */
+   .section{
+      /* outline:solid orange  3px; */
+      padding-bottom: 94px;
+      padding-top: 94px;
+   }
+   .container{
+      /* outline: solid #ff184a 4px; */
+      
+      width: 1200px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   /* header */
   /* логотип */
  .logo{
     color: var(--accent-color);
@@ -29,14 +69,6 @@
 
  .logo>span{
     color:var(--logo-color);
- }
-
- a{
-    text-decoration: none;
- }
-
- ul{
-    list-style: none;
  }
 
  .nav-link,
