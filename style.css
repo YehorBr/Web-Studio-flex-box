@@ -1,0 +1,194 @@
+ :root{
+    --primary-text-color:#212121;
+    --hero-background:#2F303A;
+    --logo-color:#000000;
+    --accent-color:#2196F3;
+    --secondary-text-color:#757575;
+    --background-color:#FFFFFF;
+/* font-family: 'Raleway', sans-serif;
+   font-family: 'Roboto', sans-serif; */
+ }
+ body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+
+    color: var(--primary-text-color);
+    background-color: var(--background-color);
+ }
+  /* логотип */
+ .logo{
+    color: var(--accent-color);
+    
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    
+ }
+
+ .logo>span{
+    color:var(--logo-color);
+ }
+
+ a{
+    text-decoration: none;
+ }
+
+ ul{
+    list-style: none;
+ }
+
+ .nav-link,
+ .contacts-link{
+   font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+ }
+
+ .nav-link{
+    color: var(--primary-text-color);
+
+ }
+
+ .contacts-link{
+    color: var(--secondary-text-color);
+   
+ }
+
+ .nav-link:hover,
+ .nav-link:focus,
+ .contacts-link:hover,
+ .contacts-link:focus{
+    color: var(--accent-color);
+ }
+ 
+ .section-hero{
+   background-color: var(--hero-background);
+ }
+
+ .section-hero-title{
+   color: var(--background-color);
+
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 60px;
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+ }
+
+ .section-hero-button{
+   
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 30px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.06em;
+
+      color: var(--background-color);
+      background-color: var(--accent-color);
+      border: 0px;
+ }
+
+.section-advantages-title{
+   color: var(--background-color);
+}
+.section-advantages-item{
+   color: var(--primary-text-color);
+
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+}
+.section-advantages-text{
+   color: var(--secondary-text-color);
+
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: 0.03em;
+}
+
+.what-we-do-title{
+   font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      letter-spacing: 0.03em;
+
+      color: var(--primary-text-color);
+}
+
+.our-team-title{
+   font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      letter-spacing: 0.03em;
+
+      color: var(--primary-text-color);
+}
+
+.name{
+   font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 0.03em;
+
+      color: var(--primary-text-color);
+   
+}
+
+.role{
+   font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 0.03em;
+
+      color: var(--secondary-text-color);
+}
+
+footer{
+   background-color: var(--hero-background);
+}
+
+.footer-logo{
+   color: var(--accent-color);
+
+   font-family: 'Raleway';
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 31px;
+      letter-spacing: 0.03em;
+}
+
+.footer-logo>span{
+   color: var(--background-color);
+}
+
+.address-text{
+   color: var(--background-color);
+
+   font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+}
+
+.footer-link{
+   color: rgba(255, 255, 255, 0.6);
+
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+}
