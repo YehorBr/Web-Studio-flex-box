@@ -13,7 +13,7 @@
  }
 
  *,
- *::before
+ *::before,
  *::after{
    box-sizing: inherit;
  }
@@ -25,6 +25,15 @@
     color: var(--primary-text-color);
     background-color: var(--background-color);
    } 
+   .container.header{
+      display: flex;
+      
+   }
+
+   .header nav{
+      display: flex;
+      /* outline: solid yellowgreen 4px; */
+   }
 
    a{
       text-decoration: none;
@@ -46,8 +55,9 @@
       padding-bottom: 94px;
       padding-top: 94px;
    }
+   
    .container{
-      /* outline: solid #ff184a 4px; */
+      outline: solid #ff184a 4px;
       
       width: 1200px;
       padding-left: 15px;
@@ -55,7 +65,7 @@
       margin-left: auto;
       margin-right: auto;
    }
-   /* header */
+
   /* логотип */
  .logo{
     color: var(--accent-color);
@@ -64,11 +74,22 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
+    /* margin-right: 93px; */
     
  }
 
  .logo>span{
     color:var(--logo-color);
+ }
+
+ .nav-list{
+   display: flex;
+   margin-left: 93px;
+ }
+
+ .contacts-list{
+   display: flex;
+   margin-left: auto;
  }
 
  .nav-link,
@@ -77,10 +98,13 @@
       font-size: 14px;
       line-height: 16px;
       letter-spacing: 0.02em;
+      margin-left: 50px;
+      
  }
 
  .nav-link{
     color: var(--primary-text-color);
+
 
  }
 
@@ -96,6 +120,8 @@
     color: var(--accent-color);
  }
  
+ /* Головна секція */
+
  .section-hero{
    background-color: var(--hero-background);
  }
@@ -126,6 +152,8 @@
       border: 0px;
  }
 
+/* Переваги */
+
 .section-advantages-title{
    color: var(--background-color);
 }
@@ -147,6 +175,8 @@
    letter-spacing: 0.03em;
 }
 
+/* Що ми робимо? */
+
 .what-we-do-title{
    font-weight: 700;
       font-size: 36px;
@@ -156,6 +186,13 @@
 
       color: var(--primary-text-color);
 }
+
+.what-we-do-list{
+   display: flex;
+   
+}
+
+
 
 .our-team-title{
    font-weight: 700;
@@ -223,4 +260,5 @@ footer{
       font-size: 14px;
       line-height: 24px;
       letter-spacing: 0.03em;
+      
 }
