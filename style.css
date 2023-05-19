@@ -64,7 +64,7 @@
    }
    
    .container{
-      outline: solid #ff184a 4px;
+      /* outline: solid #ff184a 4px; */
       
       width: 1200px;
       padding-left: 15px;
@@ -147,43 +147,72 @@
  
  /* Головна секція */
 
- .section-hero{
+ .hero{
+   padding-top: 200px;
+   padding-bottom: 200px;
+
    background-color: var(--hero-background);
  }
 
- .section-hero-title{
-   color: var(--background-color);
-
-      font-weight: 900;
-      font-size: 44px;
-      line-height: 60px;
-      text-align: center;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
+ .hero .container{
+   text-align: center;
  }
 
- .section-hero-button{
-   
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 30px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      letter-spacing: 0.06em;
+ .hero-title{
+   color: var(--background-color);
 
-      color: var(--background-color);
-      background-color: var(--accent-color);
-      border: 0px;
+   margin-left: auto;
+   margin-right: auto;
+
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 60px;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+
+   margin-bottom: 40px;
+
+   
+ }
+
+ .hero-button{
+
+   padding: 10px 32px;
+
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 30px;
+   text-align: center;
+   letter-spacing: 0.06em;
+
+   color: var(--background-color);
+   background-color: var(--accent-color);
+
+   border: none;
+   border-radius: 4px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      
  }
 
 /* Переваги */
 
-.section-advantages-title{
+.advantages-title{
    color: var(--background-color);
 }
 
-.section-advantages-item{
+.advantages-list{
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.advantages-item{
+   width: 270px;
+}
+
+.advantages-list-title{   
+
    color: var(--primary-text-color);
 
    font-weight: 700;
@@ -191,9 +220,13 @@
    line-height: 16px;
    letter-spacing: 0.03em;
    text-transform: uppercase;
+
+   margin-bottom: 10px;
 }
 
-.section-advantages-text{
+
+
+.advantages-text{
    color: var(--secondary-text-color);
 
    font-weight: 400;
@@ -202,10 +235,6 @@
    letter-spacing: 0.03em;
 }
 
-.section-advantages-text{
-   display: flex;
-   
-}
 
 /* Що ми робимо? */
 
@@ -217,23 +246,42 @@
       letter-spacing: 0.03em;
 
       color: var(--primary-text-color);
+
+      margin-bottom: 40px;
+      
 }
 
 .what-we-do-list{
    display: flex;
+   justify-content: center;
    
 }
 
+.wwd-item:not(:first-child){
+   margin-left: 30px;
+}
+   
 
 
 .our-team-title{
-   font-weight: 700;
+      font-weight: 700;
       font-size: 36px;
       line-height: 42px;
       text-align: center;
       letter-spacing: 0.03em;
 
       color: var(--primary-text-color);
+}
+
+.our-team-list{
+   display: flex;
+   justify-content: space-between;
+
+
+}
+
+.member{
+   width: 270px;
 }
 
 .name{
