@@ -247,7 +247,7 @@
 
       color: var(--primary-text-color);
 
-      margin-bottom: 40px;
+      margin-bottom: 50px;
       
 }
 
@@ -260,7 +260,10 @@
 .wwd-item:not(:first-child){
    margin-left: 30px;
 }
-   
+
+.section-our-team{
+   background-color: #F5F4FA;
+}
 
 
 .our-team-title{
@@ -272,7 +275,7 @@
 
       color: var(--primary-text-color);
 
-      margin-bottom: 40px;
+      margin-bottom: 50px;
 }
 
 .our-team-list{
@@ -284,6 +287,10 @@
 
 .member{
    width: 270px;
+
+   border-radius: 0px 0px 4px 4px;
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+   
 }
 
 .name{
@@ -295,7 +302,15 @@
       letter-spacing: 0.03em;
 
       color: var(--primary-text-color);
+
+      margin-bottom: 10px;
+
+       
    
+}
+
+.team-photo{
+   margin-bottom: 30px;
 }
 
 .role{
@@ -306,6 +321,7 @@
       letter-spacing: 0.03em;
 
       color: var(--secondary-text-color);
+      margin-bottom: 30px;
 }
 
 footer{
