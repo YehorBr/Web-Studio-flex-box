@@ -9,6 +9,16 @@
    font-family: 'Roboto', sans-serif; */
  }
 
+ html {
+     box-sizing: content-box;
+ }
+
+ *,
+ *::before,
+ *::after {
+     box-sizing: inherit;
+ }
+
  body {
      font-family: 'Roboto', sans-serif;
      font-style: normal;
@@ -16,6 +26,33 @@
 
      color: var(--primary-text-color);
      background-color: var(--background-color);
+ }
+
+ .section {
+     /* outline:solid orange  3px; */
+     padding-bottom: 94px;
+     padding-top: 94px;
+ }
+
+ .container {
+     /* outline: solid #ff184a 4px; */
+
+     width: 1200px;
+     padding-left: 15px;
+     padding-right: 15px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .container.header {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     padding-top: 24px;
+     padding-bottom: 25px;
+
+
  }
 
  /* логотип */
@@ -33,13 +70,37 @@
      color: var(--logo-color);
  }
 
+ 
+
  a {
      text-decoration: none;
  }
 
- ul {
-     list-style: none;
+   ul,
+   p,
+   h1,
+   h2,
+   h3 {
+       list-style: none;
+       padding: 0;
+       margin: 0;
+   }
+
+ .header nav {
+     display: flex;
+     justify-content: center;
+     align-items: center;
  }
+
+ .nav-list {
+     display: flex;
+     margin-left: 93px;
+ }
+
+  .nav-item:not(:first-child),
+  .contacts-item:not(:first-child) {
+      margin-left: 50px;
+  }
 
  .nav-link,
  .contacts-link {
@@ -47,6 +108,11 @@
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
+ }
+
+ .contacts-list {
+     display: flex;
+     margin-left: auto;
  }
 
  .nav-link {
@@ -66,21 +132,42 @@
      color: var(--accent-color);
  }
 
- .button{
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        text-align: center;
-        letter-spacing: 0.03em;
+ .buttons-list{
+    display: flex;
+    justify-content: center;
+ }
 
-        background-color: var(--background-color);
-        border: none;
+ .buttons-list .list-item:not(:first-child){
+    margin-left: 30px;
+ }
+
+ .button{
+    padding: 6px 25px;
+
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+
+    background-color: var(--background-color);
+    border: none;
+    
  }
 
  .button:hover,
  .button:focus{
     background-color: var(--accent-color);
     color: var(--background-color);
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    \border-radius: 4px;
+ }
+
+ links-list{
+    display: flex;
+    flex-wrap: wrap;
+
  }
 
  .project-title{

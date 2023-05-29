@@ -17,6 +17,7 @@
  *::after{
    box-sizing: inherit;
  }
+ 
  body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -98,8 +99,6 @@
  .contacts-item:not(:first-child){
    margin-left: 50px;
  }
-
-
 
  /* .nav-item:nth-child(n+2) {
     margin-left: 50px;
