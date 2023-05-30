@@ -135,10 +135,12 @@
  .buttons-list{
     display: flex;
     justify-content: center;
+
+    margin-bottom: 56px;
  }
 
  .buttons-list .list-item:not(:first-child){
-    margin-left: 30px;
+    margin-left: 8px;
  }
 
  .button{
@@ -150,8 +152,9 @@
     line-height: 26px;
     letter-spacing: 0.03em;
 
-    background-color: var(--background-color);
     border: none;
+    background: #F5F4FA;
+    border-radius: 4px;
     
  }
 
@@ -161,14 +164,26 @@
     color: var(--background-color);
 
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    \border-radius: 4px;
+    border-radius: 4px;
  }
 
- links-list{
+.links-list{
     display: flex;
     flex-wrap: wrap;
 
+    margin: -15px;
  }
+
+ .links-list .list-item{
+    width: calc((100% - 6*15px) / 3);
+    margin: 15px;
+    
+    
+ }
+
+ .text-container{
+    padding: 20px 24px;
+ } 
 
  .project-title{
     font-weight: 700;
@@ -177,6 +192,8 @@
         letter-spacing: 0.06em;
         
         color: var(--primary-text-color);
+        margin-bottom: 4px;
+
  }
  .specialisation{
     font-weight: 400;
@@ -191,27 +208,33 @@
      background-color: var(--hero-background);
  }
 
- .footer-logo {
-     color: var(--accent-color);
-
-     font-family: 'Raleway';
-     font-weight: 700;
-     font-size: 26px;
-     line-height: 31px;
-     letter-spacing: 0.03em;
- }
 
  .footer-logo>span {
      color: var(--background-color);
  }
 
- .address-text {
+  .footer-logo {
+      color: var(--accent-color);
+
+      font-family: 'Raleway';
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 31px;
+      letter-spacing: 0.03em;
+      
+  }
+  
+
+ .address {
      color: var(--background-color);
 
-     font-weight: 400;
-     font-size: 14px;
-     line-height: 24px;
-     letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    
+    margin-top: 20px; 
+    margin-bottom: 9px;
  }
 
  .footer-link {
@@ -221,5 +244,14 @@
      font-size: 14px;
      line-height: 24px;
      letter-spacing: 0.03em;
+ }
+
+ .footer-list .list-item:not(:last-child){
+    margin-bottom: 9px;
+ }
+
+ .footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
  }
  
