@@ -230,7 +230,7 @@
 
    background-color: #F5F4FA;
    border-radius: 4px;
-   background-image: url('images/svg/aerial.svg');
+   background-image: url('./images/svg/aerial.svg');
    background-repeat: no-repeat;
    background-position: center;
    margin-bottom: 30px;
@@ -246,7 +246,7 @@
    margin-bottom: 30px;
 
    background-color: #F5F4FA;
-   background-image: url('images/svg/clock.svg');
+   background-image: url('./images/svg/clock.svg');
    background-repeat: no-repeat;
    background-position: center;
 
@@ -263,7 +263,7 @@
    margin-bottom: 30px;
 
    background-color: #F5F4FA;
-   background-image: url('images/svg/diagram.svg');
+   background-image: url('./images/svg/diagram.svg');
    background-repeat: no-repeat;
    background-position: center;
 
