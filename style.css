@@ -223,21 +223,21 @@
    width: 270px;
 }
 
-.icon-aerial::before{
+.icon-aerial::before {
    content: '';
    display: block;
    height: 120px;
-   
+
    background-color: #F5F4FA;
    border-radius: 4px;
    background-image: url(images/svg/aerial.svg);
    background-repeat: no-repeat;
    background-position: center;
    margin-bottom: 30px;
-   
+
 }
 
-.icon-clock::before{
+.icon-clock::before {
    content: '';
 
    display: block;
@@ -249,43 +249,43 @@
    background-image: url(images/svg/clock.svg);
    background-repeat: no-repeat;
    background-position: center;
-   
+
    border-radius: 4px;
-   
+
 }
 
-.icon-diagram::before{
-      content: '';
+.icon-diagram::before {
+   content: '';
 
-      display: block;
+   display: block;
 
-      height: 120px;
-      margin-bottom: 30px;
+   height: 120px;
+   margin-bottom: 30px;
 
-      background-color: #F5F4FA;
-      background-image: url(images/svg/diagram.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      
-      border-radius: 4px;
-      
+   background-color: #F5F4FA;
+   background-image: url(images/svg/diagram.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+
+   border-radius: 4px;
+
 }
 
-.icon-astronaut::before{
-      content: '';
+.icon-astronaut::before {
+   content: '';
 
-      display: block;
+   display: block;
 
-      height: 120px;
-      margin-bottom: 30px;
+   height: 120px;
+   margin-bottom: 30px;
 
-      background-color: #F5F4FA;
-      background-image: url(./images/svg/astronaut\ 1.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      
-      border-radius: 4px;
-      
+   background-color: #F5F4FA;
+   background-image: url(./images/svg/astronaut\ 1.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+
+   border-radius: 4px;
+
 }
 
 .advantages-list-title{   
